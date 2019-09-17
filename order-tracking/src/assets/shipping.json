@@ -1,0 +1,17 @@
+[
+    {
+        "customer": "John Snow",
+        "type": "Overnight",
+        "price": 25.99
+    },
+    {
+        "customer": "Adam Smith",
+        "type": "2-Day",
+        "price": 9.99
+    },
+    {
+        "customer": "Simon Sinek",
+        "type": "Postal",
+        "price": 2.99
+    }
+]
