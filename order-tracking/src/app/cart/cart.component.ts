@@ -7,6 +7,7 @@ import { CartService } from '../cart.service';
   templateUrl: './cart.component.html',
   styleUrls: ['./cart.component.css']
 })
+
 export class CartComponent {
   items;
   checkoutForm;
@@ -18,12 +19,8 @@ export class CartComponent {
     this.items = this.cartService.getItems();
 
     this.checkoutForm = this.formBuilder.group({
-      customerName: '',
-      creationDate: new Date(),
-      dueDate: '',
-      orderdProducts: this.items,
-      producDetails: '',
-      quantitiy: '',
+      name: '',
+      address: ''
     });
   }
 
